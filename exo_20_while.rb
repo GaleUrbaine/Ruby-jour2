@@ -3,17 +3,13 @@ print ">"
 number = gets.chomp
 
 n = number.to_i
-a = "#"
-b = " "
-i = 1
+a = ""
+b =
 
 puts "Voilà ma Super Pyramide:"
-  if 1<= n && n <= 15
-
-#    puts "#"
+  while n <= 15
     n.times do
-        print " " + (1*" ")
-        puts a += "#"
-      end
-
+      puts a += "#"
+    end
+    break if "##############"
   end
