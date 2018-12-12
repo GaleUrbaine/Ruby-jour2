@@ -7,7 +7,9 @@ a = "#"
 b =
 
 puts "Voilà ma Super Pyramide:"
-  puts "#"
-n.times do
-  puts a += "#"
+  if 1<= n && n <= 15
+    puts "#"
+    (n -1).times do
+      puts a += "#"
+    end
 end
