@@ -4,13 +4,10 @@ number = gets.chomp
 
 n = number.to_i
 a = "#"
-b = "##"
-c = "###"
-d = "####"
-e = "#####"
+b =
 
 puts "Voilà ma Super Pyramide:"
   puts "#"
 n.times do
-  puts (b)
+  puts a += "#"
 end
