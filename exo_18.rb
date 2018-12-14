@@ -1,7 +1,9 @@
 n=0
 
-array = [
+email_list = []
+
   50.times do
-  puts "jean.onch#{n+=1}@ggmail.com"
+    email_list << "jean.onch.#{n+=1}@ggmail.com"
 end
-]
+
+puts email_list

@@ -11,5 +11,5 @@ puts "Voilà ma Super Pyramide:"
     n.times do
       puts a += "#"
     end
-    break if "##############"
+    break if "###############"
   end

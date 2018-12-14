@@ -6,13 +6,14 @@ n = number.to_i
 a = "#"
 b = " "
 i = 1
+m = n/2
 
 puts "Voilà ma Super Pyramide:"
   if 1<= n && n <= 15
 
 #    puts "#"
     n.times do
-        print " " + (1*" ")
+        print ' ' * (n -= 1)
         puts a += "#"
       end
 
